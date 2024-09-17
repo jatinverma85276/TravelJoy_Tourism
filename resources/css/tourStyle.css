@@ -125,7 +125,7 @@ Orange color: #e67e22
     /* font-family: "Nerko One", cursive;
     font-weight: 200;
     font-style: normal; */
-    font-family: "Lora", serif;
+    /* font-family: "Lora", serif; */
     font-optical-sizing: auto;
     font-style: normal;
   }
@@ -197,10 +197,10 @@ Orange color: #e67e22
 
 .booking-description h3{
     text-transform: none;
-    font-family: "Nerko One", cursive;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 40px;
+    /* font-family: "Nerko One", cursive; */
+    font-weight: 400;
+    /* font-style: normal; */
+    font-size: 33px;
 }
 
 .booking-description .heading p{
@@ -395,14 +395,19 @@ Orange color: #e67e22
 
 .footer{
   text-align: center;
+  font-weight: 200;
 }
 
 .footer-main{
-  height: 14rem;
+  height: 11rem;
 }
 
 .footer-copy-write {
   text-align: center;
+}
+
+.footer a{
+  text-decoration: none;
 }
 
 .social-media{
@@ -446,3 +451,6 @@ Orange color: #e67e22
     background-color: khaki;
     font-size: smaller;
 }
+
+
+/* Footer */
