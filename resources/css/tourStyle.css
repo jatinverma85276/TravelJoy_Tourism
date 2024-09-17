@@ -107,7 +107,7 @@ Orange color: #e67e22
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     z-index: 1; /* Place the gradient on top of the image */
   }
   
@@ -148,6 +148,30 @@ Orange color: #e67e22
     height: 100%;
   }
 
+  /* Default navbar style */
+.navbar {
+  background-color: transparent; /* Transparent by default */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .nav-link {
+  color: white; /* Default text color is white */
+  transition: color 0.3s ease;
+}
+
+/* Class to apply white background and black text */
+.navbar.scrolled {
+  background-color: white;
+   /* White background when scrolled */
+}
+
+.navbar.scrolled .nav-link {
+  color: black !important; /* Black text when scrolled */
+}
+
+.navbar.scrolled .navbar-brand {
+  color: black; /* Black brand text when scrolled */
+}
 /******************     Booking Description    ******************/
 
 .booking{
