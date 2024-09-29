@@ -175,7 +175,7 @@ Orange color: #e67e22
 /******************     Booking Description    ******************/
 
 .booking{
-  padding: 3rem 0rem 8rem 0;
+  padding: 3rem 0rem 8rem 0 !important;
     background-color: #f8f9fa;
 }
 
@@ -308,7 +308,7 @@ Orange color: #e67e22
 
 .testinomial{
   height: 32rem;
-  padding: 3.5rem 8rem;
+  padding: 3.5rem 8rem !important;
 }
 
 .testimonial-heading{
@@ -420,7 +420,7 @@ Orange color: #e67e22
 .contact-us{
   height: 25rem;
   text-align: center;
-  padding: 2rem 10rem;
+  padding: 2rem 10rem !important;
 }
 
 .contact-us h1{
